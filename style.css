@@ -1,0 +1,116 @@
+body {
+    background-color:rgb(252, 179, 179)
+}
+
+
+.aparicoesBody,  .contatoBody {
+    background-color: rgb(80, 75, 75);
+}
+
+.aparicoesP {
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: rgb(14, 13, 13);
+    color: whitesmoke;
+    text-align: left; padding-left: 25px;
+}
+
+.avisoBody {
+    background-color: rgb(119, 126, 126);
+}
+
+.aparicoesImg {
+    margin: 15px;
+    border: 6px solid #000;
+}
+
+h1 {
+    font-size: 90px;
+    padding: 0;
+    margin: 0; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    border: 6px #000 solid;
+    background-color:rgb(179, 116, 116)
+
+}
+
+.h1Contato {
+    text-align: center;
+    font-size: 70px;
+    margin: 40px;
+    border: 6px #000 solid;
+    background-color: rgb(85, 81, 81);
+}
+
+.avisoH1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+    
+    
+}
+
+
+.indexP, .avisoP2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+   
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: monospace;
+    margin: 30px;
+}
+
+.avisoP {
+    font-size: 20px;
+    text-align: justify;
+    font-family: monospace;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.pContato {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(85, 81, 81);
+    padding: 10px;
+}
+
+
+b, .h3index {
+    font-size: 42px;
+    padding: 0%;
+    margin: 0;
+   
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: monospace;
+    margin: 20px;
+    padding: 10px;
+}
+
+.bAviso {
+
+    font-size: 35px;
+    text-align: center;
+    font-family: monospace;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
