@@ -30,7 +30,7 @@ function addPost () {
 }
 
 const audioDiv = document.querySelector('.audio')
-const musica = new Audio('audios/musicacut.mp3')
+const musica = new Audio('audios/musicacut2.mp3')
 
 audioDiv.appendChild(musica)
 
