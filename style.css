@@ -1,10 +1,18 @@
-body {
+.bodyIndex {
     background-color:rgb(252, 179, 179)
 }
 
 
 .aparicoesBody,  .contatoBody {
     background-color: rgb(80, 75, 75);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contato {
+    background-color: rgb(80, 75, 75);
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .aparicoesP {
@@ -12,10 +20,22 @@ body {
     font-family: monospace;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 0px;
     padding: 5px;
     background-color: rgb(14, 13, 13);
     color: whitesmoke;
-    text-align: left; padding-left: 25px;
+    text-align: left; 
+    padding-left: 25px;
+}
+
+.footerAparicoes {
+    font-size: 30px;
+    background-color: #2c2929;
+    border: 6px solid black;
+    color: antiquewhite;
+    text-align: center;
+    margin: 60px 60px 60px 60px;
+    padding: 60px 60px 60px 60px;
 }
 
 .avisoBody {
@@ -23,14 +43,33 @@ body {
 }
 
 .aparicoesImg {
-    margin: 15px;
+    margin: 25px;
     border: 6px solid #000;
+}
+
+.cabecalhoHistorico {
+    font-size: 60px;
+    background-color: #2c2929;
+    border: 6px solid black;
+    color: antiquewhite;
+    text-align: center;
+    margin: 20px;
 }
 
 h1 {
     font-size: 90px;
     padding: 0;
     margin: 0; 
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.pontoInterrogacao {
+    font-size: 90px;
+    padding: 0;
+    margin: 0; 
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 h2 {
@@ -54,8 +93,8 @@ h2 {
     text-align: center;
     font-size: 50px;
     margin: 25px;
-    
-    
+    border: solid 6px black;
+    background-color: #2c2929;
 }
 
 
@@ -112,5 +151,40 @@ h3 {
     margin: 20px;
     padding: 10px;
     
+}
+
+.fotosTiago {
+    margin-left: 90px;
+    
+}
+
+.inputContato {
+    margin-left: 90px;
+}
+
+.form {
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+.musica {
+    position: absolute;
+}
+.geral {
+    margin: 40px;
+    text-align: center;
+   color: rgb(17, 14, 10);
+   font-size: 15px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.teoria{
+    display:flex;
+}
+
+.legenda {
+    font-size: 10px;
+    margin: 5px;
+    text-align: left;
+    margin-left: 25px;
 }
 

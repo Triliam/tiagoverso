@@ -29,8 +29,8 @@ body ::after {
     font-family: monospace;
     font-weight: bold;
     text-align: center;
-    position: relative;
-    animation: scroll 70s linear forwards;
+    position: absolute;
+    animation: scroll 80s linear forwards;
    
 }
 h1 {
@@ -39,6 +39,6 @@ h1 {
 
 @keyframes scroll {
  from { top: 0; transform: translateZ(0) rotateX(7deg) }
- to { top: -7000px; transform: translateZ(-10px) rotateX(8deg) }
+ to { top: -6000px; transform: translateZ(-10px) rotateX(8deg) }
 }
 

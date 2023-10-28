@@ -9,54 +9,95 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+<header>
+    <h1 class="h1Contato">Relatos</h1>
+</header>
 <body class="contatoBody">
-   <h1 class="h1Contato">Relatos</h1>
-
-   <a href="#form"><p>Compartilhe seu relato</p></a> 
    
-   <h3 id="top">Steve Hrad</h3>
-    <p class="pContato">I swear I saw this guy the other day...
-    <br>I was in my sitting in the park listening to a Britney Spears CD on my boombox when this guy walks past and says:
-    <br> "When you're long gone, that song will live on." 
-    <br>I thought it was cool that he liked my choice in music, but he was a little odd.</p>
-    <br>
-    <h3>Arthur Dent</h3>
-    <p class="pContato">This rather odd man was lying down in front of a bulldozer in front of my home.</p>
-    <br>
-    <h3>Perry Winkle</h3>
-    <p class="pContato">There was a boy in my class at school in Unesp some thirty years ago who looked just like this man, and he is still there. Strange similarity...</p>
-    <br>
-    <h3>Sam Ford</h3>
-    <p class="pContato">I saw him in a library in Stafford reading a book by Charles Dickens...</p>
-    <br>
-    <h3>Samuel Wilkinson</h3>
-    <p class="pContato">I once saw him on the tube, reading A Brief History Of Time and laughing heartily.</p>
-    <br>
-    <h3>Marty McFly</h3>
-    <p class="pContato">I know that man, he stole my DeLorean!!!</p>
-    <br>
-    <h3>Mark B</h3>
-    <p class="pContato">I've seen him!!! I was on my holiday last year in Tunisia. He approached me and asked me if I was interested in 'time shares'.</p>
-    <br>
-    <h3>Andrew - S. Wales</h3>
-    <p class="pContato">I remember watching this guy play down the local arcade in the 80's , he was awesome on Pac Man and Galaga!!!</p>
-    <br>
-    <h3>Basil Brazil</h3>
-    <p class="pContato">He's working here as a computer programmer!</p>
-    <br>
-    <h3>Steve M.</h3>
-    <p class="pContato">I saw him ... scrawling "1M F47" on a wall ....!</p>
-    <br>
-    <h3>Tiago</h3>
-    <p class="pContato">I saw his face in my toast yesterday. I would provide a picture but I was hungry and I ate it.</p>
-    <br>
+   <div class="contato">
+    <div>
+        
+    </div>
+        <div>
+            <h3>Steve Hrad</h3>
+            <p class="pContato">I swear I saw this guy the other day...
+            <br>I was in my sitting in the park listening to a Britney Spears CD on my boombox when this guy walks past and says:
+            <br> "When you're long gone, that song will live on." 
+            <br>I thought it was cool that he liked my choice in music, but he was a little odd.</p>
+        </div>
+        <br>
+        
+        <div>
+            <h3>Arthur Dent</h3>
+            <p class="pContato">This rather odd man was lying down in front of a bulldozer in front of my home.</p>
+        </div>
+        <br>
+        <div>
+            <h3>Perry Winkle</h3>
+            <p class="pContato">There was a boy in my class at school in Unesp some thirty years ago who looked just like this man, and he is still there. Strange similarity...</p>
+        </div>
+        <br>
 
-    <p id="form">!</p>
-    <label class="form">Compartilhe aqui seu contato</label><br>
-    <input type="text" value=""><br>
-    <button class="form">Compartilhar</button><br>
+        <div>
+            <h3>Sam Ford</h3>
+            <p class="pContato">I saw him in a library in Stafford reading a book by Charles Dickens...</p>
+        </div>
+        <br>
 
-    <a href="#top"><p>voltar ao topo</p></a>
-  
+        <div>
+            <h3>Samuel Wilkinson</h3>
+            <p class="pContato">I once saw him on the tube, reading A Brief History Of Time and laughing heartily.</p>
+        </div>
+        <br>
+
+        <div>
+            <a href="delorian.html"><h3>Marty McFly</h3></a>
+            <p class="pContato">I know that man, he stole my DeLorean!!!</p>
+        </div>
+        <br>
+
+        <div>
+            <h3>Mark B</h3>
+            <p class="pContato">I've seen him!!! I was on my holiday last year in Turquia. He approached me and asked me if I was interested in 'time shares'.</p>
+        </div>
+        <br>
+
+        <div>
+            <h3>Andrew - S. Wales</h3>
+            <p class="pContato">I remember watching this guy play down the local arcade in the 80's , he was awesome on Pac Man and Galaga!!!</p>
+        </div>
+        <br>
+
+        <div>
+            <h3>Basil Brazil</h3>
+            <p class="pContato">He's working here as a computer programmer!</p>
+        </div>
+        <br>
+
+        <div>
+            <h3>Steve M.</h3>
+            <p class="pContato">I saw him ... scrawling "1M F47" on a wall ....!</p>
+        </div>
+        <br>
+
+        <div>
+            <h3>Tiago</h3>
+            <p class="pContato">I saw his face in my toast yesterday. I would provide a picture but I was hungry and I ate it.</p>
+        </div>
+
+        <br>
+   </div>
+   
+   <div id="divsocorro">
+   </div>
+
+   <p>Compartilhe seu relato</p>
+   <input type="text" value="" class="inputContato" id="inputContatoNome" style="width: 100px;" placeholder="Nome"><br>
+   
+   <textarea class="inputContato" id="inputContatoTituloDescricao" placeholder="Relato"></textarea> <br>
+   <button class="form" onclick="addPost()">Compartilhar</button><br>
+
+
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
